@@ -33,7 +33,7 @@ module.exports = {
 		'scss/at-rule-no-unknown': true,
 		// Disabled because of https://github.com/kristerkari/stylelint-scss/issues/203
 		// 'scss/dollar-variable-colon-newline-after': 'always-multi-line',
-		'scss/dollar-variable-colon-space-after': 'always',
+		'scss/dollar-variable-colon-space-after': 'always-single-line',
 		'scss/dollar-variable-colon-space-before': 'never',
 		'scss/dollar-variable-no-missing-interpolation': true,
 		'scss/dollar-variable-pattern': reLowercase,
