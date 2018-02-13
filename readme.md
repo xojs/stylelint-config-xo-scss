@@ -1,6 +1,6 @@
-# stylelint-config-xo-scss [![Build Status](https://travis-ci.org/sindresorhus/stylelint-config-xo-scss.svg?branch=master)](https://travis-ci.org/sindresorhus/stylelint-config-xo-scss) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+# stylelint-config-xo-scss [![Build Status](https://travis-ci.org/xojs/stylelint-config-xo-scss.svg?branch=master)](https://travis-ci.org/xojs/stylelint-config-xo-scss) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
-> [Stylelint](https://stylelint.io) shareable config for XO with Sass support
+> [Stylelint](https://stylelint.io) shareable config for [XO](https://github.com/xojs/xo) with Sass support
 
 
 ## Install
@@ -23,8 +23,8 @@ Add this to your [Stylelint config](https://stylelint.io/user-guide/configuratio
 
 ## Related
 
-- [stylelint-config-xo](https://github.com/sindresorhus/stylelint-config-xo) - Stylelint shareable config for XO with tab indent
-- [xo](https://github.com/sindresorhus/xo) - JavaScript linter
+- [stylelint-config-xo](https://github.com/xojs/stylelint-config-xo) - Stylelint shareable config for XO with tab indent
+- [xo](https://github.com/xojs/xo) - JavaScript linter
 
 
 ## License

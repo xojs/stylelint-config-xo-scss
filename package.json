@@ -3,7 +3,7 @@
 	"version": "0.2.0",
 	"description": "Stylelint shareable config for XO with Sass support",
 	"license": "MIT",
-	"repository": "sindresorhus/stylelint-config-xo-scss",
+	"repository": "xojs/stylelint-config-xo-scss",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
