@@ -12,14 +12,6 @@ module.exports = {
 		'at-rule-empty-line-before': null,
 		'scss/at-else-if-parentheses-space-before': 'always',
 		'scss/at-extend-no-missing-placeholder': true,
-		'scss/at-function-named-arguments': [
-			'always',
-			{
-				ignore: [
-					'single-argument'
-				]
-			}
-		],
 		'scss/at-function-parentheses-space-before': 'never',
 		'scss/at-function-pattern': reLowercase,
 		'scss/at-import-no-partial-leading-underscore': true,
@@ -27,7 +19,6 @@ module.exports = {
 			'scss'
 		],
 		'scss/at-mixin-argumentless-call-parentheses': 'never',
-		'scss/at-mixin-named-arguments': 'always',
 		'scss/at-mixin-parentheses-space-before': 'never',
 		'scss/at-mixin-pattern': reLowercase,
 		'scss/at-rule-no-unknown': true,
