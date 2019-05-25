@@ -25,8 +25,3 @@ Add this to your [Stylelint config](https://stylelint.io/user-guide/configuratio
 
 - [stylelint-config-xo](https://github.com/xojs/stylelint-config-xo) - Stylelint shareable config for XO with tab indent
 - [xo](https://github.com/xojs/xo) - JavaScript linter
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
