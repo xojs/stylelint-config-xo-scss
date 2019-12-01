@@ -35,6 +35,7 @@ module.exports = {
 		// 'scss/double-slash-comment-whitespace-inside': 'always',
 		'scss/declaration-nested-properties': 'never',
 		'scss/declaration-nested-properties-no-divided-groups': true,
+		'scss/function-color-relative': true,
 		'scss/function-quote-no-quoted-strings-inside': true,
 		'scss/function-unquote-no-unquoted-strings-inside': true,
 		'scss/operator-no-unspaced': true,
