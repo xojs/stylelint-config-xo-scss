@@ -10,6 +10,8 @@ module.exports = {
 	rules: {
 		'at-rule-no-unknown': null,
 		'at-rule-empty-line-before': null,
+
+		'scss/at-each-key-value-single-line': true,
 		'scss/at-else-if-parentheses-space-before': 'always',
 		'scss/at-extend-no-missing-placeholder': true,
 		'scss/at-function-parentheses-space-before': 'never',
