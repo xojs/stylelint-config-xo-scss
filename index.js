@@ -25,6 +25,7 @@ module.exports = {
 		'scss/at-mixin-argumentless-call-parentheses': 'never',
 		'scss/at-mixin-parentheses-space-before': 'never',
 		'scss/at-mixin-pattern': reLowercase,
+		'scss/at-rule-conditional-no-parentheses': true,
 		'scss/at-rule-no-unknown': true,
 		// Disabled because of https://github.com/kristerkari/stylelint-scss/issues/203
 		// 'scss/dollar-variable-colon-newline-after': 'always-multi-line',
