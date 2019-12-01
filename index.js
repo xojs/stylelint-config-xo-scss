@@ -45,6 +45,7 @@ module.exports = {
 		'scss/operator-no-unspaced': true,
 		'scss/partial-no-import': true,
 		'scss/selector-no-redundant-nesting-selector': true,
-		'scss/no-duplicate-dollar-variables': true
+		'scss/no-duplicate-dollar-variables': true,
+		'scss/no-duplicate-mixins': true
 	}
 };
