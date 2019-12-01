@@ -16,6 +16,7 @@ module.exports = {
 		'scss/at-extend-no-missing-placeholder': true,
 		'scss/at-function-parentheses-space-before': 'never',
 		'scss/at-function-pattern': reLowercase,
+		'scss/at-if-no-null': true,
 		'scss/at-import-no-partial-leading-underscore': true,
 		'scss/at-import-partial-extension-blacklist': [
 			'scss'
