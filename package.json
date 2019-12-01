@@ -4,6 +4,7 @@
 	"description": "Stylelint shareable config for XO with Sass support",
 	"license": "MIT",
 	"repository": "xojs/stylelint-config-xo-scss",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
@@ -30,15 +31,15 @@
 		"linter"
 	],
 	"dependencies": {
-		"stylelint-config-xo": "^0.15.0",
-		"stylelint-scss": "^3.6.1"
+		"stylelint-config-xo": "^0.16.0",
+		"stylelint-scss": "^3.13.0"
 	},
 	"devDependencies": {
-		"ava": "^1.4.1",
-		"stylelint": "^10.0.1",
-		"xo": "^0.24.0"
+		"ava": "^2.4.0",
+		"stylelint": "^12.0.0",
+		"xo": "^0.25.3"
 	},
 	"peerDependencies": {
-		"stylelint": ">=10"
+		"stylelint": ">=12"
 	}
 }
