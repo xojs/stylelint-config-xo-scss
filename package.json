@@ -1,6 +1,6 @@
 {
 	"name": "stylelint-config-xo-scss",
-	"version": "0.12.0",
+	"version": "0.13.0",
 	"description": "Stylelint shareable config for XO with Sass support",
 	"license": "MIT",
 	"repository": "xojs/stylelint-config-xo-scss",
