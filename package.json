@@ -11,7 +11,7 @@
 		"url": "https://sindresorhus.com"
 	},
 	"engines": {
-		"node": ">=10"
+		"node": ">=12"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -31,15 +31,16 @@
 		"linter"
 	],
 	"dependencies": {
-		"stylelint-config-xo": "^0.20.0",
-		"stylelint-scss": "^3.18.0"
+		"postcss-scss": "^4.0.3",
+		"stylelint-config-xo": "^0.21.0",
+		"stylelint-scss": "^4.2.0"
 	},
 	"devDependencies": {
 		"ava": "^2.4.0",
-		"stylelint": "^13.7.2",
+		"stylelint": "^14.5.3",
 		"xo": "^0.32.0"
 	},
 	"peerDependencies": {
-		"stylelint": ">=13.7.0"
+		"stylelint": ">=14.5.1"
 	}
 }

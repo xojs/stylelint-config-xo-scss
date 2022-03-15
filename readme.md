@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install --save-dev stylelint-config-xo-scss
+```sh
+npm install --save-dev stylelint-config-xo-scss
 ```
 
 ## Usage

@@ -4,12 +4,21 @@ const reLowercase = /^[a-z]+(-[a-z\d]+)*$/;
 
 module.exports = {
 	extends: 'stylelint-config-xo',
+	customSyntax: require('postcss-scss'),
 	plugins: [
 		'stylelint-scss'
 	],
 	rules: {
 		'at-rule-no-unknown': null,
 		'at-rule-empty-line-before': null,
+		'no-invalid-position-at-import-rule': [
+			true,
+			{
+				ignoreAtRules: [
+					'use'
+				]
+			}
+		],
 
 		'scss/at-each-key-value-single-line': true,
 		'scss/at-else-if-parentheses-space-before': 'always',
@@ -24,11 +33,13 @@ module.exports = {
 		'scss/at-mixin-pattern': reLowercase,
 		'scss/at-rule-conditional-no-parentheses': true,
 		'scss/at-rule-no-unknown': true,
+		'scss/at-use-no-unnamespaced': true,
 		// Disabled because of https://github.com/kristerkari/stylelint-scss/issues/203
 		// 'scss/dollar-variable-colon-newline-after': 'always-multi-line',
 		'scss/dollar-variable-colon-space-after': 'always-single-line',
 		'scss/dollar-variable-colon-space-before': 'never',
 		'scss/dollar-variable-no-missing-interpolation': true,
+		'scss/dollar-variable-no-namespaced-assignment': true,
 		'scss/dollar-variable-pattern': reLowercase,
 		'scss/percent-placeholder-pattern': reLowercase,
 		// Disabled because of https://github.com/kristerkari/stylelint-scss/issues/202
@@ -37,6 +48,8 @@ module.exports = {
 		'scss/declaration-nested-properties-no-divided-groups': true,
 		'scss/dimension-no-non-numeric-values': true,
 		'scss/function-color-relative': true,
+		'function-no-unknown': null,
+		'scss/function-no-unknown': true,
 		'scss/function-quote-no-quoted-strings-inside': true,
 		'scss/function-unquote-no-unquoted-strings-inside': true,
 		'scss/operator-no-unspaced': true,
