@@ -10,8 +10,11 @@
 		"email": "sindresorhus@gmail.com",
 		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
+	"exports": "./index.js",
+	"sideEffects": false,
 	"engines": {
-		"node": ">=12"
+		"node": ">=18"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -31,16 +34,16 @@
 		"linter"
 	],
 	"dependencies": {
-		"postcss-scss": "^4.0.3",
-		"stylelint-config-xo": "^0.21.0",
-		"stylelint-scss": "^4.2.0"
+		"postcss-scss": "^4.0.9",
+		"stylelint-config-xo": "^1.0.0",
+		"stylelint-scss": "^6.2.1"
 	},
 	"devDependencies": {
-		"ava": "^2.4.0",
-		"stylelint": "^14.5.3",
-		"xo": "^0.32.0"
+		"ava": "^6.1.2",
+		"stylelint": "^16.4.0",
+		"xo": "^0.58.0"
 	},
 	"peerDependencies": {
-		"stylelint": ">=14.5.1"
+		"stylelint": ">=16"
 	}
 }
