@@ -12,7 +12,8 @@ const runStylelint = async code => {
 
 	for (const result of results) {
 		if (result.deprecations.length > 0) {
-			throw new Error(`Deprecations:\n${result.deprecations.join('\n')}`);
+			const warnings = result.deprecations.map(x => x.text).join('\n');
+			throw new Error(`Deprecations:\n${warnings}`);
 		}
 
 		if (result.invalidOptionWarnings.length > 0) {
